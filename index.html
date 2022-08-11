@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="./index.css" />
+    <title>My Cool Book COllection</title>
+  </head>
+  <body>
+  
+    <div class="navigation">
+      <h1 class="logo"><a href="">Awesome Books</a></h1>
+      <nav class="nav">
+        <a href="#" class="nav__link list">List</a>
+        <a href="#" class="nav__link addbooks">Add New</a>
+        <a href="#" class="nav__link contacts">Contact</a>
+      </nav>
+    </div>
+  
+
+    <main class="main">
+      <div class="date" id="date"></div>
+      <div class="books" id="books">
+        <div class="wrapper">
+          <h1> My Awesome Books</h1>
+          <table class="lists-table">
+            <tbody class="lists" id="lists" ></tbody>
+          </table>
+        </div>
+        <section class="addbook" id="addbook">
+          <h1>Add a Book</h1>
+          <form id="form" class="form">
+            <input
+              type="text"
+              name="author"
+              id="atr"
+              placeholder="author"
+              class="atr"
+              required
+              
+            />
+            <input
+              type="text"
+              name="title"
+              id="ttl"
+              placeholder="title"
+              class="ttl"
+              required
+              
+            />
+            <button id="btn" type="button">Add</button>
+          </form>
+        </section>
+
+        <section class="contact" id="contact">
+          <div class="container">
+            <h1 class="contacth1">Contact Me</h1>
+            <p>you can reach Me through example@gmail.com</p>
+            <p>+254 68754 393745</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p >
+        &copy;2022 This project made by @Fullstop125 and @MohamedCK
+      </p>
+    </footer>
+    <script src="index.js" type="module"></script>
+    <script src="display.js"></script>
+  </body>
+</html>

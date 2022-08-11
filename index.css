@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  list-style-type: none;
+  width: 25%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: lightgrey;
+  margin: 25px;
+}
+
+.date {
+  position: relative;
+  float: right;
+  margin-right: 30px;
+}
+
+.addbook {
+  display: none;
+  flex-direction: column;
+  margin-top: 66px;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+form input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#btn {
+  width: 100px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-left: auto;
+}
+
+.lists-table {
+  display: flex;
+  width: 60%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h1 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.contact p {
+  margin: 18px 0;
+}
+
+nav :hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: darkgrey;
+  width: 100%;
+}
